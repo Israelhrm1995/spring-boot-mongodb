@@ -7,4 +7,6 @@ import com.israelspring.mongo.domain.User;
 
 @Repository
 public interface UserRepository  extends MongoRepository<User, String>{
+	
 }
+
